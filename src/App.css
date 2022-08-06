@@ -12,5 +12,20 @@
 .page-list .list-item a{
   text-decoration: none;
   font-size: 1.2rem;
+  color: teal;
+}
+.action-btn{
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  background-color: teal;
+  color: white;
+  box-sizing: border-box;
+  min-width: 60px;
+  border: none;
+  margin-left: 5px;
+}
+.action-btn:hover{
+  background-color: rgb(1, 91, 91);
+  cursor: pointer;
 }
 
