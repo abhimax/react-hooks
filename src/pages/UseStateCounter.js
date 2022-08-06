@@ -1,7 +1,7 @@
 function UseStateCounter() {
   return (
     <div className="App">
-      <h1>My React Hook Tests</h1>
+      <h1>USC</h1>
     </div>
   );
 }

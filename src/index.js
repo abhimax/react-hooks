@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import UseStateCounter from './pages/UseStateCounter';
 import reportWebVitals from './reportWebVitals';
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App/>}/>
+        <Route path="/use-state-counter" element={<UseStateCounter/>}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
