@@ -1,7 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+function UseStateCounter() {
   return (
     <div className="App">
       <h1>My React Hook Tests</h1>
@@ -9,4 +6,4 @@ function App() {
   );
 }
 
-export default App;
+export default UseStateCounter;
