@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import UseStateCounter from './pages/UseStateCounter';
+import UseEffectFlagCounter from './pages/UseEffectFlagCounter';
 import reportWebVitals from './reportWebVitals';
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 
@@ -13,6 +14,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App/>}/>
         <Route path="/use-state-counter" element={<UseStateCounter/>}/>
+        <Route path="/use-effect-flag-counter" element={<UseEffectFlagCounter/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
