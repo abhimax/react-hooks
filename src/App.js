@@ -14,6 +14,7 @@ function App() {
       <ul className='page-list'>
         <li className='list-item'><Link to="/use-state-counter">useState Counter</Link></li>
         <li className='list-item'><Link to="/use-effect-flag-counter">useEffect flag counter</Link></li>
+        <li className='list-item'><Link to="/use-ref-input">useRef</Link></li>
       </ul>
       <Context.Provider value='red'>
         <Button label="Context >>"/>

@@ -21,11 +21,11 @@ function UseEffectFlagCounter() {
   return (
     <div className="App">
       <h1>{`Count: ${count}`}</h1>
-      <button className="action-btn" onClick={increment}>
-        +
-      </button>
       <button className="action-btn" onClick={decrement}>
         -
+      </button>
+      <button className="action-btn" onClick={increment}>
+        +
       </button>
       {flag ? <h1>5 Star FLAG!</h1> : ""}
     </div>

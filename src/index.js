@@ -6,6 +6,7 @@ import UseStateCounter from './pages/UseStateCounter';
 import UseEffectFlagCounter from './pages/UseEffectFlagCounter';
 import reportWebVitals from './reportWebVitals';
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
+import UseRefInput from './pages/UseRefInput';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<App/>}/>
         <Route path="/use-state-counter" element={<UseStateCounter/>}/>
         <Route path="/use-effect-flag-counter" element={<UseEffectFlagCounter/>}/>
+        <Route path="/use-ref-input" element={<UseRefInput/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
