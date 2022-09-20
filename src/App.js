@@ -20,10 +20,7 @@ function App() {
       <Context.Provider value='red'>
         <Button label="Context >>"/>
       </Context.Provider>
-        
     </div>
- 
-    
   );
 }
 
